@@ -1093,9 +1093,9 @@
                 if (params[params.length-1] === "")
                     params.pop();
                 // Make string to float. This will lose some performance.
-//                for (var i = 0, ii = params.length; i < ii; ++i) {
-//                    params[i] = +params[i];
-//                }
+                for (var i = 0, ii = params.length; i < ii; ++i) {
+                    params[i] = +params[i];
+                }
                 if (name == "m" && params.length > 2) {
                     data.push([b][concat](params.splice(0, 2)));
                     name = "l";
