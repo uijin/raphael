@@ -1,4 +1,21 @@
-# Raphaël: Cross-browser vector graphics the easy way. 
+## Speedup path animation of Raphaël library
+
+I use Raphaël on animation of Chinese character evolution. Each strok of character is a SVG path, and path animation is not fast enough on Raphaël v2.1.0.
+
+So I modify some code to speedup path animation, and make pull requests to [upstream repository](https://github.com/DmitryBaranovskiy/raphael).
+
+### Demo
+The videos listed below are captured from Google Chrome v25.0.1364.152.
+
+1. [Origin animation](http://www.tudou.com/programs/view/PmQB_0NAfog/)
+1. [Speedup phase 1](http://www.tudou.com/programs/view/fZmvka4f59Q/)
+1. [Speedup phase 2](http://www.tudou.com/programs/view/jIHeb6-59aE/)
+
+
+\## Contents below are original README of Raphaël library.
+- - -
+
+# Raphaël: Cross-browser vector graphics the easy way.
 
 Visit the library website for more information: [http://raphaeljs.com](http://raphaeljs.com/)
 
@@ -53,8 +70,8 @@ Remember to add all the info that can be useful such as
 
 ## Copyright and license
 
-Copyright © 2008-2012 Dmitry Baranovskiy (http://raphaeljs.com) 
+Copyright © 2008-2012 Dmitry Baranovskiy (http://raphaeljs.com)
 
-Copyright © 2008-2012 Sencha Labs (http://sencha.com)  
+Copyright © 2008-2012 Sencha Labs (http://sencha.com)
 
 Licensed under the **MIT** (http://raphaeljs.com/license.html) license.
